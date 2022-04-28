@@ -16,7 +16,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function renameFiles(names) {
-  let newArrNames = [...names];
   let result = [];
   debugger
   names.forEach((item, index) => {
